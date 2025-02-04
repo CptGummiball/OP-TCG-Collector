@@ -1,0 +1,11 @@
+id,name,edition,rarity,quantity,image_url
+1,Black Lotus,Alpha,Rare,0,https://example.com/images/black-lotus.png
+2,Ancestral Recall,Alpha,Rare,0,https://example.com/images/ancestral-recall.png
+3,Shivan Dragon,Beta,Uncommon,0,https://example.com/images/shivan-dragon.png
+4,Serra Angel,Alpha,Uncommon,0,https://example.com/images/serra-angel.png
+5,Time Walk,Alpha,Rare,0,https://example.com/images/time-walk.png
+6,Mox Sapphire,Alpha,Artifact,0,https://example.com/images/mox-sapphire.png
+7,Llanowar Elves,Alpha,Common,0,https://example.com/images/llanowar-elves.png
+8,Sol Ring,Alpha,Artifact,0,https://example.com/images/sol-ring.png
+9,Counterspell,Alpha,Uncommon,0,https://example.com/images/counterspell.png
+10,Lightning Bolt,Alpha,Common,0,https://example.com/images/lightning-bolt.png
