@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCG Collection</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">TCG Collection</div>
+      <div class="nav-links">
+        <a href="#" id="home-link">Home</a>
+        <a href="#" id="collection-link">Collection</a>
+        <a href="#" id="wishlist-link">Wishlist</a>
+        <a href="#" id="search-link">Search</a>
+        <button id="language-toggle">EN</button>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <!-- Home content -->
+      <div id="home-content">
+        <h1>Welcome to your TCG Collection</h1>
+        <p>Manage your card collection and wishlist easily!</p>
+      </div>
+      
+      <!-- Collection content -->
+      <div id="collection-content" class="hidden">
+        <h2>Your Collection</h2>
+        <div id="collection-list"></div>
+      </div>
+      
+      <!-- Wishlist content -->
+      <div id="wishlist-content" class="hidden">
+        <h2>Your Wishlist</h2>
+        <div id="wishlist-list"></div>
+      </div>
+      
+      <!-- Search content -->
+      <div id="search-content" class="hidden">
+        <h2>Search Cards</h2>
+        <input type="text" id="search-bar" placeholder="Search by card name..." />
+        <div id="search-results"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/csvUtils.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
